@@ -1,0 +1,19 @@
+# Vivado generated folders
+*.cache/
+*.runs/
+*.sim/
+*.gen/
+*.hw/
+*.ip_user_files/
+.Xil/
+
+# Logs and journals
+*.jou
+*.log
+*.str
+*.backup.*
+
+# Build outputs
+*.bit
+*.dcp
+*.bin
