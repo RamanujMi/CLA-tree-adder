@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Academics/2nd year/1st Sem/Comp Arc/Processor/first_adder/first_adder.srcs/sources_1/new/CLA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'GP'
+INFO: [VRFC 10-3107] analyzing entity 'CLA'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Academics/2nd year/1st Sem/Comp Arc/Processor/first_adder/first_adder.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'

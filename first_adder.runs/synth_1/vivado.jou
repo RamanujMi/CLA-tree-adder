@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Tue Oct 13 12:58:01 2026
+# Process ID         : 8984
+# Current directory  : C:/Academics/2nd year/1st Sem/Comp Arc/Processor/first_adder/first_adder.runs/synth_1
+# Command line       : vivado.exe -log CLA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CLA.tcl
+# Log file           : C:/Academics/2nd year/1st Sem/Comp Arc/Processor/first_adder/first_adder.runs/synth_1/CLA.vds
+# Journal file       : C:/Academics/2nd year/1st Sem/Comp Arc/Processor/first_adder/first_adder.runs/synth_1\vivado.jou
+# Running On         : Ramanuj-PC
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16803 MB
+# Swap memory        : 6979 MB
+# Total Virtual      : 23782 MB
+# Available Virtual  : 7462 MB
+#-----------------------------------------------------------
+source CLA.tcl -notrace

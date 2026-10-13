@@ -1,0 +1,54 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 05-oct-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Tue Oct 13 13:19:05 2026
+# Process ID         : 23724
+# Current directory  : C:/Academics/2nd year/1st Sem/Comp Arc/FPGA/first_adder
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent23088 C:\Academics\2nd year\1st Sem\Comp Arc\FPGA\first_adder\first_adder.xpr
+# Log file           : C:/Academics/2nd year/1st Sem/Comp Arc/FPGA/first_adder/vivado.log
+# Journal file       : C:/Academics/2nd year/1st Sem/Comp Arc/FPGA/first_adder\vivado.jou
+# Running On         : Ramanuj-PC
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-1360P
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16803 MB
+# Swap memory        : 6979 MB
+# Total Virtual      : 23782 MB
+# Available Virtual  : 9889 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Academics/2nd year/1st Sem/Comp Arc/FPGA/first_adder/first_adder.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Academics/2nd year/1st Sem/Comp Arc/Processor/first_adder' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Academics/2nd year/1st Sem/Comp Arc/FPGA/first_adder/first_adder.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:11 . Memory (MB): peak = 1778.500 ; gain = 321.695
+update_compile_order -fileset sources_1
+write_project_tcl {C:/Academics/2nd year/1st Sem/Comp Arc/FPGA/first_adder/first_adder.srcs/sources_1/new/first_adder.tcl}
+WARNING: [Vivado 12-818] No files matched '*.bd'
+INFO: [Vivado-projutils-8] Tcl script 'first_adder.tcl' generated in output directory 'C:/Academics/2nd year/1st Sem/Comp Arc/FPGA/first_adder/first_adder.srcs/sources_1/new'
+
+INFO: [Vivado-projutils-15] Please note that by default, the file path for the project source files were set with respect to the 'origin_dir' variable in the
+ generated script. When this script is executed from the output directory, these source files will be referenced with respect to this 'origin_dir' path value.
+ In case this script was later moved to a different directory, the 'origin_dir' value must be set manually in the script with the path
+ relative to the new output directory to make sure that the source files are referenced correctly from the original project. You can also set the
+ 'origin_dir' automatically by setting the 'origin_dir_loc' variable in the tcl shell before sourcing this generated script. The 'origin_dir_loc'
+ variable should be set to the path relative to the new output directory. Alternatively, if you are sourcing the script from the Vivado command line,
+ then set the origin dir using '-tclargs --origin_dir <path>'. For example, 'vivado -mode tcl -source first_adder.tcl -tclargs --origin_dir ".."
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 13 13:23:52 2026...
